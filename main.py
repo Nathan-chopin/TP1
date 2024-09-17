@@ -4,7 +4,13 @@
 
 import tp1 as fn
 
-print(list(str(2024)))
+print( '\n test de la fonction bissextil :')
 
-print('L\'annee 2024 est t elle bissextil ? :',fn.bissextile(2024))
+print('L\'annee 2023 est t elle bissextil ? :',fn.bissextile(2023))
 print('L\'annee 2000 est t elle bissextil ? :',fn.bissextile(2000))
+
+print( '\n test de la fonction nombre de jour dans le mois:')
+
+print('L\' pour l\'année 2023 le mois février avais :',fn.nombre_jour(2,2023) ,' jours')
+print('L\' pour l\'année 2000 le mois février avais :',fn.nombre_jour(2,2000),' jours')
+
