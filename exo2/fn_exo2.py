@@ -27,12 +27,13 @@ def mesImpots(revenu,x=4):
 
 
 def Impots(revenu):
+    '''donne les montant des impots en fonction du revenus pour une personne seul'''
     plafond = [10225,26071,74545,160336,160337]
     taux = [11,30,41,45,45]
     impots = 0
     for i in range(len(plafond)):
-        i = (len(plafond)-1) - i
+        i = (len(plafond)-1) - i  #permet de parcourir l'indice à l'envers càd de 4 à 0
         if revenu >= plafond[i]:
-            impots += (revenu - plafond[i]) * (taux[i] / 100)
+            impots += (revenu - plafond[i]) * (taux[i] / 100)   # calcul des impots
             revenu = plafond[i] - 1
-    return impots
+    return int(impots)
