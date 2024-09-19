@@ -7,4 +7,6 @@ import fn_exo2 as fn
 
 revenu = 50000
 
-print(fn.mesImpots(revenu))
+print(fn.Impots(revenu))
+
+#print('\n', (50000-26070))
