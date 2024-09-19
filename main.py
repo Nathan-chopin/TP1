@@ -1,5 +1,5 @@
-# Nathan CHOPIN
 # main/script test du TP1
+# Nathan CHOPIN
 # 17/09/24
 
 import tp1 as fn
@@ -16,8 +16,8 @@ print('L\' pour l\'année 2000 le mois février avais :',fn.nombre_jour(2,2000),
 
 print( '\n test de la vérification de la date:')
 
-print('La date du 36/02/549 est : ', fn.vérification_date(36,2,546))
-print('La date du 17/09/2024 est : ',fn.vérification_date(17,9,2024))
+print('La date du 36/02/549 est une' ,fn.explane(fn.vérification_date(36,2, 546)))
+print('La date du 17/09/2024 est une',fn.explane(fn.vérification_date(17,9,2024)))
 
 
 
