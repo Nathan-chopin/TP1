@@ -1,6 +1,6 @@
-# main/script test du TP1
+# main/script et test de l'exercice 1 du TP1
 # Nathan CHOPIN
-# 17/09/24
+# 19/09/24
 
 import tp1 as fn
 
